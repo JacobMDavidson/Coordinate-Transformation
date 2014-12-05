@@ -39,7 +39,7 @@ namespace CoordinateTransformation
             sampleInput += String.Format("{0,-15}{1,-15} ;The ponts to transform\r\n", 174.148, -120.262);
             sampleInput += String.Format("{0,-15}{1,-15}\r\n{2,-15}{3,-15}\r\n{4,-15}{5,-15}", 513.520, -192.130, 754.444, -67.706, 972.788, 120.994);
 
-
+            // Comment to test git
             inputTextBox.Text = sampleInput;
         }
 
