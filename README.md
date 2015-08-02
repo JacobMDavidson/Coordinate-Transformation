@@ -6,19 +6,62 @@ Performs a 2D coordinate transformation for converting coordinates from one coor
 
 The input can be created in a separate text file, or within the provided editor itself. Use a semicolon within the input file to indicate a comment. This input must take the following form:
 
-|3||;number of common points between the systems, in this case 3.|
-|X1|Y1|;The common points for the coordinate system that the unknown points will be transformed to|
-|X2|Y2||
-|X3|Y3||
-|U1|V1|;The common points for the coordinate system that the unknown points will be transformed from|
-|U2|V2||
-|U3|V3||
-|4||;Number of unknown points for which to solve|
-|U4|V4||
-|U5|V5||
-|U6|V6||
-|U7|V7||
-{: rules="groups"}
+<table>
+  <tbody>
+    <tr>
+      <td>3</td>
+      <td></td>
+      <td>;number of common points between the systems, in this case 3.</td>
+    </tr>
+    <tr>
+      <td>X1</td>
+      <td>Y1</td>
+      <td>;The common points for the coordinate system to which the unknown points will be transformed<td>
+    </tr>
+    <tr>
+      <td>X2</td>
+      <td>Y2</td>
+    </tr>
+    <tr>
+      <td>X3</td>
+      <td>Y3</td>
+    </tr>
+    <tr>
+      <td>U1</td>
+      <td>V1</td>
+      <td>;The common points for the coordinate system from which the unknown points will be transformed</td>
+    </tr>
+    <tr>
+      <td>U2</td>
+      <td>V2</td>
+    </tr>
+    <tr>
+      <td>U3</td>
+      <td>V3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td></td>
+      <td>;Number of unknown points for which to solve</td>
+    </tr>
+    <tr>
+      <td>U4</td>
+      <td>V4</td>
+    </tr>
+    <tr>
+      <td>U5</td>
+      <td>V5</td>
+    </tr>
+    <tr>
+      <td>U6</td>
+      <td>V6</td>
+    </tr>
+    <tr>
+      <td>U7</td>
+      <td>V7</td>
+    </tr>
+  </tbody>
+</table>
 
 Once entered, select the "Run" button to generate the output. This output will generate the residual matrix, variance, and standard deviation of the calculation. This will help to determine any outliers that may exist within the input. The output will also provide the transformed coordinates for the unknown points.
 
