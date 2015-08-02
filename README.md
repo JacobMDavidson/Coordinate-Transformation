@@ -16,7 +16,7 @@ The input can be created in a separate text file, or within the provided editor 
     <tr>
       <td>X1</td>
       <td>Y1</td>
-      <td>;The common points for the coordinate system to which the unknown points will be transformed<td>
+      <td>;The common points for the coordinate system to which the unknown points will be transformed</td>
     </tr>
     <tr>
       <td>X2</td>
@@ -73,3 +73,9 @@ Once entered, select the "Run" button to generate the output. This output will g
 4. Save Output - Allows the user to save the output to a chosen location.
 
 To make a new input file without using a text editor, simply delete any existing input, enter the new input, and select "Save Input". The "Save Input" option always works as a save as, ensuring you won't overwrite any existing input data without warning.
+
+## References
+
+The calculation is based on the 2D linear coordinate transformation method detailed in chapter 18 of the fifth edition of *Adjustment Computations - Spatial Data Analysis* by Charles D. Ghilani.
+
+The Matrix class used in this application is courtesy of [Ivan Kuckir](http://blog.ivank.net), and is available on [GitHub](https://github.com/darkdragon-001/LightweightMatrixCSharp).
